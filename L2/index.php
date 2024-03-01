@@ -48,3 +48,46 @@ $petrovaSchedule = ($dayOfWeek == 2 || $dayOfWeek == 4 || $dayOfWeek == 6) ? '12
 
 </body>
 </html>
+
+<br>
+
+<?php
+$d=date("D");
+#echo $d == "Fri" ? "<br />Хороших вам выходных!" : "<br />Приятного рабочего дня, вам!";
+if ($d=="Fri")
+echo "<br />Хороших вам выходных!";
+else
+ echo "<br />Приятного рабочего дня, вам!";
+?>
+
+<br>
+<?php
+$dayOfWeek = date("N"); // Получаем числовое представление дня недели
+$dateToday = date("d.m.y"); // Получаем текущую дату в формате дд.мм.гг
+
+switch ($dayOfWeek) {
+    case 1:
+        $dayOfWeekRussian = "понедельник";
+        break;
+    case 2:
+        $dayOfWeekRussian = "вторник";
+        break;
+    case 3:
+        $dayOfWeekRussian = "среда";
+        break;
+    case 4:
+        $dayOfWeekRussian = "четверг";
+        break;
+    case 5:
+        $dayOfWeekRussian = "пятница";
+        break;
+    case 6:
+        $dayOfWeekRussian = "суббота";
+        break;
+    case 7:
+        $dayOfWeekRussian = "воскресенье";
+        break;
+}
+
+echo "Сегодня, $dayOfWeekRussian, $dateToday";
+?>
