@@ -41,7 +41,7 @@ $petrovaSchedule = ($dayOfWeek == 2 || $dayOfWeek == 4 || $dayOfWeek == 6) ? '12
     </tr>
     <tr>
         <td>2.</td>
-        <td>Петрова Мария</td>
+        <td><b>Петрова Мария</b></td>
         <td><?php echo $petrovaSchedule; ?></td>
     </tr>
 </table>
