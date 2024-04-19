@@ -1,0 +1,11 @@
+
+
+Name: vlada
+Comment: super class wow
+
+Name: Ирина
+Comment: Отличный сайт! Админу респект
+
+Name: Андрюша
+Comment: я тут не причем
+
